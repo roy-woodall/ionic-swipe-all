@@ -1,6 +1,6 @@
 # Ionic Swipe All
 
-Ionic Swipe All allow Ionic (≥ v2) to recognize both horizontal and vertical swipe gesture.
+Ionic Swipe All allow Ionic (≥ v4) to recognize both horizontal and vertical swipe gesture.
 
 ## Installation
 
