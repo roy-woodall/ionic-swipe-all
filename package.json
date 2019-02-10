@@ -64,7 +64,7 @@
   "deprecated": false,
   "description": "Allow Ionic (≥ v2) to recognize both horizontal and vertical swipe gesture.",
   "devDependencies": {
-    "@angular/cli": "1.6.0",
+    "@angular/cli": "~7.2.3",
     "@types/hammerjs": "2.0.34",
     "rimraf": "2.6.2",
     "typescript": "~3.1.6"
@@ -86,7 +86,8 @@
   "scripts": {
     "build": "npm run clean && tsc && ngc && npm run clean-src",
     "clean": "rimraf ./dist",
-    "clean-src": "rimraf ./src/*.ngsummary.json & rimraf ./src/*.ngfactory.ts"
+    "clean-src": "rimraf ./src/*.ngsummary.json & rimraf ./src/*.ngfactory.ts",
+    
   },
   "typings": "./dist/index.d.ts",
   "version": "1.3.0"
