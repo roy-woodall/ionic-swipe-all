@@ -84,7 +84,7 @@
     "url": "git+https://github.com/roy-woodall/ionic-swipe-all.git"
   },
   "scripts": {
-    "build": "npm run clean && tsc && ngc && npm run clean-src",
+    "build": "tsc",
     "clean": "rimraf ./dist",
     "clean-src": "rimraf ./src/*.ngsummary.json & rimraf ./src/*.ngfactory.ts",
     "prepare": "npm run build"
