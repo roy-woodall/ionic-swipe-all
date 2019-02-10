@@ -81,7 +81,7 @@
   "name": "ionic-swipe-all",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diogoqueiros/ionic-swipe-all.git"
+    "url": "git+https://github.com/roy-woodall/ionic-swipe-all.git"
   },
   "scripts": {
     "build": "npm run clean && tsc && ngc && npm run clean-src",
